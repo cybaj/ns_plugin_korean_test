@@ -12,7 +12,8 @@ export class Korean extends Common {
     }
 
     public normalize() {
-        this.normalized = com.twitter.penguin.korean.TwitterKoreanProcessor.normalize(this.text).toString()
+        const dd = <java.lang.CharSequence> com.twitter.penguin.korean.TwitterKoreanProcessor.normalize(this.text);
+        this.normalized = dd.toString();
         return this.normalized;
     }
 }
