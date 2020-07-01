@@ -1,9 +1,9 @@
 import { Common } from './korean.common';
 
-declare let com: any;
+declare let com: any, java: any;
 
 export class Korean extends Common {
-    public text: string;
+    public text: java.lang.CharSequence;
     public normalized: string;
     
     constructor() {
