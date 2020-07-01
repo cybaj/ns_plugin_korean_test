@@ -12,7 +12,7 @@ export class Korean extends Common {
     }
 
     public normalize() {
-        this.normalized = com.twitter.penguin.korean.TwitterKoreanProcessor.normalize(this.text)
+        this.normalized = com.twitter.penguin.korean.TwitterKoreanProcessor.normalize(this.text).toString()
         return this.normalized;
     }
 }
