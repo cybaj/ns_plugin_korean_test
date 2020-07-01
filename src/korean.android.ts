@@ -3,7 +3,7 @@ import { Common } from './korean.common';
 declare let com: any, java: any;
 
 export class Korean extends Common {
-    public text: java.lang.CharSequence;
+    public text: string;
     public normalized: string;
     
     constructor() {

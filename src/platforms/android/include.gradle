@@ -13,4 +13,5 @@ dependencies {
 	// implementation "groupName:pluginName:ver" 
     // EXAMPLE: implementation "com.facebook.fresco:fresco:0.9.0+"
     // implementation "com.twitter.penguin:korean-text:4.4.4"
+    implementation "org.scala-lang.modules:scala-collection-compat_2.13.0-RC1:1.0.0"
 }
