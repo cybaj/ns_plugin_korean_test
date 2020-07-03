@@ -12,7 +12,6 @@
 android {
   defaultConfig {
     minSdkVersion 21
-    multiDexEnabled true
     generatedDensities = []
   }
   aaptOptions {
