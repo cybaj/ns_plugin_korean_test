@@ -1,5 +1,7 @@
 import { Common } from './korean.common';
 
+declare let java, com, androidx;
+
 export class Korean extends Common {
     public text: string;
     public normalized: string;
