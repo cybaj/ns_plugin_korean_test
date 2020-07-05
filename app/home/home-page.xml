@@ -8,6 +8,7 @@
 
     <GridLayout>
         <Label text="{{ text }}"></Label>
+        <Label text="{{ normalized }}"></Label>
         <!-- Add your page content here -->
     </GridLayout>
 </Page>

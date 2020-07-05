@@ -9,6 +9,7 @@ export class Korean extends Common {
     constructor() {
         super();
         this.text = "한국어를 처리하는 예시입니닼ㅋㅋㅋㅋㅋ #한국어";
+        this.normalized = "";
     }
 
     public normalize() {
