@@ -1,7 +1,5 @@
 import { Common } from './korean.common';
 
-declare let com: any, java: any;
-
 export class Korean extends Common {
     public text: string;
     public normalized: string;
@@ -12,7 +10,7 @@ export class Korean extends Common {
     }
 
     public normalize() {
-        const dd = <java.lang.CharSequence> com.twitter.penguin.korean.TwitterKoreanProcessor.normalize(this.text);
+        const dd = com.twitter.penguin.korean.TwitterKoreanProcessor.normalize(this.text);
         this.normalized = dd.toString();
         return this.normalized;
     }
